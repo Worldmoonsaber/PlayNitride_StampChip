@@ -1,5 +1,0 @@
-﻿  pch.cpp
-  dllmain.cpp
-  Source.cpp
-C:\Users\Steven Lee\source\repos\AOILib_Chip_DLL\AOILib_Chip_DLL\Source.cpp(12,10): fatal error C1083: 無法開啟包含檔案: 'opencv2/highgui/highgui.hpp': No such file or directory
-  正在產生程式碼...
