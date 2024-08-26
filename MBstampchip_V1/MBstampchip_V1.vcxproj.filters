@@ -18,9 +18,6 @@
     <ClCompile Include="MBstampchip_V1.cpp">
       <Filter>資源檔</Filter>
     </ClCompile>
-    <ClCompile Include="InputFuntion.cpp">
-      <Filter>資源檔</Filter>
-    </ClCompile>
     <ClCompile Include="GeneralOperation.cpp">
       <Filter>資源檔</Filter>
     </ClCompile>

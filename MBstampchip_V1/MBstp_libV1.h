@@ -62,11 +62,6 @@ typedef struct
 
 }ImgP_;
 
-/*Input function*/
-std::tuple<int, Mat> Inputfunction();
-std::tuple < vector<float>, vector<int>> dict_rectregion(int picorder);
-
-
 /*unused function*/
 //void gammaCorrection(const Mat& src, Mat& dst, const float gamma);
 //int findBoundary(Mat creteriaIMG, Rect inirect, char direction);

@@ -133,7 +133,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="GeneralOperation.cpp" />
-    <ClCompile Include="InputFuntion.cpp" />
     <ClCompile Include="MBstampchip_V1.cpp" />
     <ClCompile Include="MBstp_algorithmV1.cpp" />
   </ItemGroup>
