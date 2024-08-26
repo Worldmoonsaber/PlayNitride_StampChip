@@ -223,62 +223,62 @@ std::tuple<int, Mat> Inputfunction()
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/TestpicC2G" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/TestpicC2G" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 		}
 		else if (picseqNAME != "" && picseq == 1)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0704" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0704" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 2)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0718" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0718" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 3)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0718_abnormal" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0718_abnormal" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 4)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0725" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0725" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 5)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0725_abnormal" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0725_abnormal" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 6)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread("C:/Sample Image/StampChip/Cplus/Stp0731" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread("C:/Image/StampChip/Cplus/Stp0731" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else if (picseqNAME != "" && picseq == 7)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread(R"x(C:/Sample Image/StampChip/Cplus\PN127_240412)x" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread(R"x(C:/Image/StampChip/Cplus\PN127_240412)x" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 			
 		}
 		else if (picseqNAME != "" && picseq == 8)
 		{
 			std::cout << "Enter the number of the picture:";
 			std::cin >> picorder;
-			Rawpic = imread(R"x(C:/Sample Image/StampChip/Cplus\PN96_240412)x" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
+			Rawpic = imread(R"x(C:/Image/StampChip/Cplus\PN96_240412)x" + picseqNAME + string(std::to_string(picorder)) + ".bmp", IMREAD_GRAYSCALE);//loading the image
 
 		}
 		else
