@@ -27,6 +27,9 @@
     <ClInclude Include="resource.h">
       <Filter>標頭檔</Filter>
     </ClInclude>
+    <ClInclude Include="..\MBstampchip_V1\MBstp_libV1.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="dllmain.cpp">
@@ -36,6 +39,12 @@
       <Filter>來源檔案</Filter>
     </ClCompile>
     <ClCompile Include="Source.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MBstampchip_V1\GeneralOperation.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MBstampchip_V1\MBstp_algorithmV1.cpp">
       <Filter>來源檔案</Filter>
     </ClCompile>
   </ItemGroup>

@@ -4,10 +4,10 @@
 int main()
 {
 	//declare parameters::
-	SettingP chipsetting;
-	thresP thresParm;
-	ImgP imageParm;
-	sizeTD target;
+	SettingP_ chipsetting;
+	thresP_ thresParm;
+	ImgP_ imageParm;
+	sizeTD_ target;
 
 
 	/////I/O parameters setting:::
@@ -42,7 +42,7 @@ int main()
 	float boolflag = 0;
 
 
-	//rawimg = imread("C:\\Sample Image\\StampChip\\Cplus\\Stp0718_abnormal\\7180110.bmp");
+	//rawimg = imread("C:\\Image\\StampChip\\Cplus\\Stp0718_abnormal\\7180110.bmp");
 		// Image source input: IMG format:RGB
 		try
 		{

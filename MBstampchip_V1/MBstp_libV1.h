@@ -17,7 +17,7 @@ typedef struct
 	int ypitch[3];
 	int carx;
 	int cary;
-}SettingP;
+}SettingP_;
 
 typedef struct
 {
@@ -40,7 +40,7 @@ typedef struct
 	double TDmaxH;
 	double TDminH;
 
-}sizeTD;
+}sizeTD_;
 
 typedef struct
 {
@@ -50,7 +50,7 @@ typedef struct
 	int fgmax[3];
 	int fgmin[3];
 
-}thresP;
+}thresP_;
 
 typedef struct
 {
@@ -60,7 +60,7 @@ typedef struct
 	int imgrows; //
 	double correctTheta;
 
-}ImgP;
+}ImgP_;
 
 /*Input function*/
 std::tuple<int, Mat> Inputfunction();
@@ -78,8 +78,8 @@ Mat CropIMG(Mat img, Rect size);
 Mat KmeanOP(int knum, Mat src);
 bool BrokenChipInspect(Mat src, Rect inspectArea, int knum);
 bool checkinframe(Point2f framepoint, Point2f centerpoint, double AceptDist);
-vector<vector<Point>> elipsePatch(Mat patterrn, Mat AFFimg, sizeTD target, Point2f creteriaPoint);
-std::tuple<vector<double>, vector<Point2f>, vector<RotatedRect>, Mat, bool> defineTDelipse(Mat AFFthres, sizeTD target, Point2f creteriaPoint);
+vector<vector<Point>> elipsePatch(Mat patterrn, Mat AFFimg, sizeTD_ target, Point2f creteriaPoint);
+std::tuple<vector<double>, vector<Point2f>, vector<RotatedRect>, Mat, bool> defineTDelipse(Mat AFFthres, sizeTD_ target, Point2f creteriaPoint);
 
 //floodfill
 std::tuple<int, Point_<int>> FindMF_pixel(Mat histImg);
@@ -90,4 +90,4 @@ Mat floodfill(Mat src, int px, int py, int newVal, int lodiff, int updiff);
 
 
 /*chip algorithm */
-std::tuple<int, Mat, Point2f, Mat>STPchip_singlephase(float flag, Mat stIMG, thresP thresParm, sizeTD target, Point2f creteriaPoint, Point IMGoffset, SettingP chipsetting, double creteriaDist, ImgP imageParm);
+std::tuple<int, Mat, Point2f, Mat>STPchip_singlephase(float flag, Mat stIMG, thresP_ thresParm, sizeTD_ target, Point2f creteriaPoint, Point IMGoffset, SettingP_ chipsetting, double creteriaDist, ImgP_ imageParm);

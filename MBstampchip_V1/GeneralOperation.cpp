@@ -345,7 +345,7 @@ bool BrokenChipInspect(Mat src, Rect inspectArea, int knum)
 
 #pragma region FocusCheck
 
-std::tuple<vector<double>, vector<Point2f>, vector<RotatedRect>, Mat, bool> defineTDelipse(Mat AFFthres, sizeTD target, Mat markIMG, Point2f creteriaPoint)
+std::tuple<vector<double>, vector<Point2f>, vector<RotatedRect>, Mat, bool> defineTDelipse(Mat AFFthres, sizeTD_ target, Mat markIMG, Point2f creteriaPoint)
 {
 	/*
 		To find target elipse pattern, there are three requirements that needed to be satisfied:
@@ -470,7 +470,7 @@ std::tuple<vector<double>, vector<Point2f>, vector<RotatedRect>, Mat, bool> defi
 }
 
 
-vector<vector<Point>> elipsePatch(Mat patterrn, Mat AFFimg, sizeTD target, Point2f creteriaPoint)
+vector<vector<Point>> elipsePatch(Mat patterrn, Mat AFFimg, sizeTD_ target, Point2f creteriaPoint)
 {
 
 	Mat elipsepatch = Mat::zeros(patterrn.size(), CV_8UC1);

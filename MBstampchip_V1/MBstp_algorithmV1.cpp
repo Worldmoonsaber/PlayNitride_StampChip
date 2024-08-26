@@ -3,7 +3,7 @@
 
 
 
-std::tuple<int, Mat, Point2f, Mat>STPchip_singlephase(float flag, Mat stIMG, thresP thresParm, sizeTD target, Point2f creteriaPoint, Point IMGoffset, SettingP chipsetting, double creteriaDist, ImgP imageParm)
+std::tuple<int, Mat, Point2f, Mat>STPchip_singlephase(float flag, Mat stIMG, thresP_ thresParm, sizeTD_ target, Point2f creteriaPoint, Point IMGoffset, SettingP_ chipsetting, double creteriaDist, ImgP_ imageParm)
 {
 	auto t_start = std::chrono::high_resolution_clock::now();
 
